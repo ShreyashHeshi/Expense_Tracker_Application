@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "jsx": "react-jsx",
+        "allowJs": true, // ✅ Allows JavaScript files in the project
+        "checkJs": false, // ✅ Prevents TypeScript from type-checking JS files
+        "outDir": "dist", // ✅ Moves compiled output to `dist/` instead of overwriting source files
+        "noEmit": true, // ✅ Prevents TypeScript from generating `.js` files
+        "strict": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        },
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
