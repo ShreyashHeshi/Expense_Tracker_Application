@@ -36,7 +36,7 @@ const Login = () => {
         localStorage.setItem("token", res.data.token);
 
         // Optionally, save user info to localStorage if needed
-        localStorage.setItem("user", JSON.stringify(res.data.user));
+        //localStorage.setItem("user", JSON.stringify(res.data.user));
 
         // Log just before navigating to ensure the code reaches here
         console.log("Navigating to home...");
@@ -92,7 +92,7 @@ const Login = () => {
 
         <button
           type="submit"
-          className="w-full bg-violet-500 text-white py-2 rounded-full hover:bg-violet-600 transition duration-300"
+          className="w-full bg-violet-500 text-white py-2 rounded- hover:bg-violet-600 transition duration-300"
         >
           Login
         </button>

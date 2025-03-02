@@ -48,10 +48,16 @@ const Navbar = () => {
                 <Logo />
 
                 {/* Navigation Links */}
-                <div className="hidden md:flex space-x-6">
-                    <Link to="/" className="text-gray-700 hover:text-blue-600">Home</Link>
-                    <Link to="/about" className="text-gray-700 hover:text-blue-600">About</Link>
-                    <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
+                <div className="hidden md:flex space-x-8 py-6 text-2xl">
+                    <Link to="/" className="text-gray-700 hover:text-blue-600 font-semibold">
+                        Home
+                    </Link>
+                    <Link to="/about" className="text-gray-700 hover:text-blue-600 font-semibold">
+                        About
+                    </Link>
+                    <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-semibold">
+                        Contact
+                    </Link>
                 </div>
 
                 {/* Authentication / User Menu */}
